@@ -18,5 +18,8 @@ git diff = gives you the differnece in current state and commited state
 git restore = will restore any chances made back to the commited state so there is no difference
 git commit --amend -m "message" = will allow you to amend and change the message
 
-git push -u orgin main
+make repo using console/website withthe same repo name as you have on local repo
+git remote add origin git@github.com:"username"/"repo-name".git = will remote add your branch to let u push from local
+git branch -M main = will name your branch to main 
+git push -u origin main = will push your local repo to git repo main branch
 
