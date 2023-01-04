@@ -1,0 +1,22 @@
+git --version = for git version
+git config --global user.name "git account username"
+git config --global user.email "email used to make git account for above stated username"
+git config --global color.ui auto = to color code git outputs
+git confir -l or --list = list of users configured
+
+
+git init = initialize git local repo and to start making files and directories within that git repo
+git status = to get the status of the changes made or files and directories made
+git add . = to add all files within that repo to be commited
+git add "file or directory name or path" = adding a specific file or directory to be commited
+git rm -r --cached . = to remove all files or directories waiting to be commited
+git add -A = adds all files and directories upstream and downstream 
+git commit - m "discriptive message for whats being done" = will prepare the files and directories to be pushed 
+git log = will give a commit hash that can be used to run git show "commit hash" 
+git show "commit hash" = gives you what is waiting to be commited
+git diff = gives you the differnece in current state and commited state
+git restore = will restore any chances made back to the commited state so there is no difference
+git commit --amend -m "message" = will allow you to amend and change the message
+
+git push -u orgin main
+
