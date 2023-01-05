@@ -6,3 +6,6 @@ git branch "branch-name" = will create a branch that is used to make changes and
 
 git checkout - = will go back to the previous branch
 git checkout "branch name" = will take you to the nrach specified.
+git checkout -b "branch-name" = will create a branch and will have you checkout to that branch
+
+git push --set-upstream origin "branch-name"= will allow you to push the new branch to remote console
