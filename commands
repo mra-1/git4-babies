@@ -23,3 +23,6 @@ git remote add origin git@github.com:"username"/"repo-name".git = will remote ad
 git branch -M main = will name your branch to main 
 git push -u origin main = will push your local repo to git repo main branch
 git push = used after the local repo has already been pushed to the git repo to push newer additions and file/directory
+
+git pull - is to pull any files or directories make manually within the repo you are currently in through the consle
+
