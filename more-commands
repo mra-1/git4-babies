@@ -1,0 +1,8 @@
+git branch = will give you the branch you are currently on your local machine
+git branch -r = will give you the branches on your remote server/github
+git branch -a = will give you all branches remote and local
+
+git branch "branch-name" = will create a branch that is used to make changes and edits in best practice once approved you can merge to main branch - git branch mra = will create a branch with the name mra 
+
+git checkout - = will go back to the previous branch
+git checkout "branch name" = will take you to the nrach specified.
